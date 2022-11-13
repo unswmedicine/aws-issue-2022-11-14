@@ -1,0 +1,70 @@
+{
+    "StackEvents": [
+        {
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:104203470960:stack/test-template2-yml-delete-me/ed1baa00-639a-11ed-8021-0a7266c2f546",
+            "EventId": "f722f490-639a-11ed-aec3-0aa6f8976846",
+            "StackName": "test-template2-yml-delete-me",
+            "LogicalResourceId": "test-template2-yml-delete-me",
+            "PhysicalResourceId": "arn:aws:cloudformation:ap-southeast-2:104203470960:stack/test-template2-yml-delete-me/ed1baa00-639a-11ed-8021-0a7266c2f546",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2022-11-13T21:34:34.065000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:104203470960:stack/test-template2-yml-delete-me/ed1baa00-639a-11ed-8021-0a7266c2f546",
+            "EventId": "DataStoreVolume-CREATE_COMPLETE-2022-11-13T21:34:33.137Z",
+            "StackName": "test-template2-yml-delete-me",
+            "LogicalResourceId": "DataStoreVolume",
+            "PhysicalResourceId": "vol-0c8b25bc0e0fe9785",
+            "ResourceType": "AWS::EC2::Volume",
+            "Timestamp": "2022-11-13T21:34:33.137000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceProperties": "{\"SnapshotId\":\"\",\"VolumeType\":\"gp2\",\"Encrypted\":\"true\",\"Size\":\"5\",\"AvailabilityZone\":\"ap-southeast-2a\",\"Tags\":[{\"Value\":\"volume-from-template1.yaml-delete-me\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:104203470960:stack/test-template2-yml-delete-me/ed1baa00-639a-11ed-8021-0a7266c2f546",
+            "EventId": "DataStoreVolume-CREATE_IN_PROGRESS-2022-11-13T21:34:27.135Z",
+            "StackName": "test-template2-yml-delete-me",
+            "LogicalResourceId": "DataStoreVolume",
+            "PhysicalResourceId": "vol-0c8b25bc0e0fe9785",
+            "ResourceType": "AWS::EC2::Volume",
+            "Timestamp": "2022-11-13T21:34:27.135000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"SnapshotId\":\"\",\"VolumeType\":\"gp2\",\"Encrypted\":\"true\",\"Size\":\"5\",\"AvailabilityZone\":\"ap-southeast-2a\",\"Tags\":[{\"Value\":\"volume-from-template1.yaml-delete-me\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:104203470960:stack/test-template2-yml-delete-me/ed1baa00-639a-11ed-8021-0a7266c2f546",
+            "EventId": "DataStoreVolume-CREATE_IN_PROGRESS-2022-11-13T21:34:25.711Z",
+            "StackName": "test-template2-yml-delete-me",
+            "LogicalResourceId": "DataStoreVolume",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::EC2::Volume",
+            "Timestamp": "2022-11-13T21:34:25.711000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"SnapshotId\":\"\",\"VolumeType\":\"gp2\",\"Encrypted\":\"true\",\"Size\":\"5\",\"AvailabilityZone\":\"ap-southeast-2a\",\"Tags\":[{\"Value\":\"volume-from-template1.yaml-delete-me\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:104203470960:stack/test-template2-yml-delete-me/ed1baa00-639a-11ed-8021-0a7266c2f546",
+            "EventId": "f063f730-639a-11ed-a956-06f831fbb230",
+            "StackName": "test-template2-yml-delete-me",
+            "LogicalResourceId": "test-template2-yml-delete-me",
+            "PhysicalResourceId": "arn:aws:cloudformation:ap-southeast-2:104203470960:stack/test-template2-yml-delete-me/ed1baa00-639a-11ed-8021-0a7266c2f546",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2022-11-13T21:34:22.745000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:104203470960:stack/test-template2-yml-delete-me/ed1baa00-639a-11ed-8021-0a7266c2f546",
+            "EventId": "ed19d540-639a-11ed-8021-0a7266c2f546",
+            "StackName": "test-template2-yml-delete-me",
+            "LogicalResourceId": "test-template2-yml-delete-me",
+            "PhysicalResourceId": "arn:aws:cloudformation:ap-southeast-2:104203470960:stack/test-template2-yml-delete-me/ed1baa00-639a-11ed-8021-0a7266c2f546",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2022-11-13T21:34:17.361000+00:00",
+            "ResourceStatus": "REVIEW_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        }
+    ]
+}
