@@ -1,4 +1,4 @@
-# Apparent undocumented change to AWS Cloudformation
+# Apparent undocumented change to AWS Cloudformation or EC2 service
 
 Deploying [template1.yml](template1.yml) used to work but does no longer. Parameter type is not correctly set but previously worked. This is demonstrated in the way is was necessary to update the parameter type and conditional usage for the `Iops` parameters in the follows example.
 
