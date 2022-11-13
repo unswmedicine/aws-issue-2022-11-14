@@ -21,7 +21,7 @@ aws cloudformation deploy --template-file template1.yml --stack-name test-templa
 aws cloudformation describe-stack-events --stack-name test-template1-yml-delete-me > stack-events-test-template1-yml-delete-me.json
 ```
 
-
+**Cloudformation does not successfully create the resource** as seen at [stack-events-test-template2-yml-delete-me.json](stack-events-test-template2-yml-delete-me.json)
 
 ## template2
 
@@ -31,4 +31,4 @@ aws cloudformation deploy --template-file template2.yml --stack-name test-templa
 aws cloudformation describe-stack-events --stack-name test-template2-yml-delete-me > stack-events-test-template2-yml-delete-me.json
 ```
 
-Stack creates successfully as seen at [stack-events-test-template2-yml-delete-me.json](stack-events-test-template2-yml-delete-me.json)
+Cloudformation **successfully** creates the resource as seen at [stack-events-test-template2-yml-delete-me.json](stack-events-test-template2-yml-delete-me.json)
