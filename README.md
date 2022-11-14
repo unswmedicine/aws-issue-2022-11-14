@@ -23,6 +23,10 @@ aws cloudformation describe-stack-events --stack-name test-template1-yml-delete-
 
 **Cloudformation does not successfully create the resource** as seen at [stack-events-test-template2-yml-delete-me.json](stack-events-test-template2-yml-delete-me.json)
 
+   Properties validation failed for resource DataStoreVolume with message: #/Iops: expected type: Integer, found: String
+
+![screenshot-template-1-cfn-events.png](screenshot-template-1-cfn-events.png)
+
 ## template2
 
 ```bash
